@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline UI</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+    <div class="navbar">
+        <button id="newPostButton"><i class="fas fa-plus"></i></button>
+        <div class="nav-icons">
+            <i id="profileIcon" class="fas fa-user"></i>
+            <i id="settingsIcon" class="fas fa-cog"></i>
+            <img id="centerImage" src="https://cdn.discordapp.com/emojis/1139304519155585185.webp?size=96&quality=lossless" alt="tb.vanished.lol's server icon">
+            <i id="globeIcon" class="fas fa-moon"></i>
+            <i id="infoIcon" class="fas fa-info"></i>
+        </div>
+    </div>
+    <div class="container">
+        <div id="timeline" class="timeline"></div>
+    </div>
+    <div id="postModal" class="modal">
+        <div class="modal-content">
+            <textarea id="postContent" placeholder="Write your post..."></textarea>
+            <button id="createPostButton">Create Post</button>
+        </div>
+    </div>
+    <script src="home-tl.js"></script>
+</body>
+</html>
